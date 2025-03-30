@@ -1,0 +1,81 @@
+/*level1{
+  font-size: 2rem;
+}
+
+level2{
+  font-size: 2rem;
+}
+
+level3{
+  font-size: 2rem;
+}
+
+level4{
+  font-size: 2rem;
+}*/
+
+/*h1{
+  display: inline-block;
+  font-size: 5em;
+  background-color: mediumaquamarine;
+  padding: 1em;
+}
+@media screen and (max-width: 780px) {
+  h1{
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 680px) {
+  h1{
+    font-size: 1.5em; 
+  }
+}*/
+
+/*.component{
+  width: 50%;
+  border: 1px solid burlywood;
+  font-size: 2rem;
+}
+.title{
+  padding: 0.5em 0.5rem;
+  background-color: burlywood;
+}
+.contents{
+  font-size: 1rem;
+  padding: 0.5em 0.5rem;
+}
+@media screen and (max-width: 780px) {
+  .component{
+    font-size: 1.5rem;
+  }
+}*/
+
+h1{
+  font-size: 1.75rem; /*28px*/
+  color: burlywood;
+  margin: auto;
+  text-align: center;
+}
+.container{
+  display: flex;
+  padding: 2em; /*32px*/
+}
+.component{
+  border: 1px solid burlywood;
+  padding: 1em; /*16px*/
+}
+.title{
+  font-size: 1.5rem; /*24px*/
+  padding: 1em; /*16px*/
+  background-color: burlywood;
+}
+.contents{
+  font-size: 1.125rem; /*18px*/
+  padding: 1em; /*16px*/
+}
+@media screen and (max-width: 48rem) {
+  .container{
+    flex-direction: column;
+  }
+}
+/*768px*/
